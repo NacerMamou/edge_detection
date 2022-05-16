@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="description-section">
+      <h1>
+        Edge detection algorithm on DSP
+      </h1>
+      <h2>1)-Description</h2>
+      <p>
+        Edge detection is an image processing algorithm used to locate points in
+        an image who correspond to a sudden change in the light intensity. These
+        changes generally reflect important events or changes in world
+        properties. We implemented this amazing algorithm on a DSP card using
+        the C programming language, then we applied advanced assembler
+        techniques to increase the processing power and give the system more
+        performance
+      </p>
+      <h2>2)-Tools</h2>
+      <ul>
+        <li>Texas Instruments- TMS320C6000 DSK DSP card</li>
+        <li>Languages: C , Assembler</li>
+        <li>CCS CodeComposerStudio environment</li>
+      </ul>
+    </div>
+
+    <div id="results-section">
+      <h2>3)-Results</h2>
+      <h3>Image 1: lena.pgm</h3>
+      <div class="lena">
+        <img src="./img/lena.jpg" alt="" />
+        <img src="./img/lena_filtred.jpg" alt="" />
+      </div>
+      <h3>Image 2: cat.pgm</h3>
+      <div class="cat">
+        <img src="./img/cat.jpg" alt="" />
+        <img src="./img/cat_filtred.jpg" alt="" />
+      </div>
+      <h3>Image 3: kong.pgm</h3>
+      <div class="kong">
+        <img src="./img/kong.jpg" alt="" />
+        <img src="./img/kong_filtred.jpg" alt="" />
+      </div>
+    </div>
+  </body>
+</html>

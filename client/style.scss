@@ -1,0 +1,243 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+html {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+@media all and (min-width: 1100px) {
+  h1 {
+    color: royalblue;
+    margin: 2vw 0 1vw 0;
+    font-size: 4vw;
+  }
+  h2 {
+    font-size: 2.5vw;
+    margin: 1.5vw 0 0.5vw 0;
+  }
+  h3 {
+    font-size: 1.8vw;
+    margin-bottom: 0.4vw;
+  }
+  ul {
+    list-style-type: none;
+    padding-left: 1vw;
+    & li {
+      font-size: 2vw;
+    }
+  }
+  p {
+    font-size: 2vw;
+  }
+
+  #description-section {
+    display: flex;
+    flex-direction: column;
+    width: 76%;
+  }
+
+  #results-section {
+    display: flex;
+    flex-direction: column;
+    width: 76%;
+    .lena {
+      display: flex;
+      width: 100%;
+      justify-content: center;
+      margin-bottom: 2vw;
+      & img {
+        display: flex;
+        width: 50%;
+        min-height: 35vw;
+        object-fit: cover;
+      }
+    }
+    .cat {
+      display: flex;
+      width: 100%;
+      justify-content: center;
+      margin-bottom: 2vw;
+      & img {
+        display: flex;
+        min-height: 30vw;
+        width: 50%;
+        object-fit: cover;
+      }
+    }
+    .kong {
+      display: flex;
+      width: 100%;
+      justify-content: center;
+      margin-bottom: 2vw;
+      & img {
+        display: flex;
+        width: 50%;
+        min-height: 35vw;
+        object-fit: cover;
+      }
+    }
+  }
+}
+
+@media all and (max-width: 1099px) and (min-width: 577px) {
+  h1 {
+    color: royalblue;
+    margin: 2vw 0 1vw 0;
+    font-size: 4vw;
+  }
+  h2 {
+    font-size: 2.5vw;
+    margin: 1.5vw 0 0.5vw 0;
+  }
+  h3 {
+    font-size: 1.8vw;
+    margin-bottom: 0.4vw;
+  }
+  ul {
+    list-style-type: none;
+    padding-left: 1vw;
+    & li {
+      font-size: 2vw;
+    }
+  }
+  p {
+    font-size: 2vw;
+  }
+  
+  #description-section {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+  }
+
+  #results-section {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    .lena {
+      display: flex;
+      width: 100%;
+      justify-content: center;
+      margin-bottom: 2vw;
+      & img {
+        display: flex;
+        width: 50%;
+        min-height: 35vw;
+        object-fit: cover;
+      }
+    }
+    .cat {
+      display: flex;
+      width: 100%;
+      justify-content: center;
+      margin-bottom: 2vw;
+      & img {
+        display: flex;
+        min-height: 30vw;
+        width: 50%;
+        object-fit: cover;
+      }
+    }
+    .kong {
+      display: flex;
+      width: 100%;
+      justify-content: center;
+      margin-bottom: 2vw;
+      & img {
+        display: flex;
+        width: 50%;
+        min-height: 35vw;
+        object-fit: cover;
+      }
+    }
+  }
+}
+
+@media all and (max-width: 576px) {
+  h1 {
+    color: royalblue;
+    margin: 2vw 0 1vw 0;
+    font-size: 6.5vw;
+  }
+  h2 {
+    font-size: 5.2vw;
+    margin: 4vw 0 0.5vw 0;
+  }
+  h3 {
+    font-size: 4vw;
+    margin: 1vw 0 0.7vw 0;
+  }
+  ul {
+    list-style-type: none;
+    padding-left: 2vw;
+    & li {
+      font-size: 4vw;
+    }
+  }
+  p {
+    font-size: 4vw;
+  }
+  
+  #description-section {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+  }
+
+  #results-section {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    .lena {
+      display: flex;
+      width: 100%;
+      justify-content: center;
+      margin-bottom: 2vw;
+      & img {
+        display: flex;
+        width: 100%;
+        min-height: 20vw;
+        min-height: 50vw;
+        object-fit: cover;
+      }
+    }
+    .cat {
+      display: flex;
+      width: 100%;
+      justify-content: center;
+      margin-bottom: 2vw;
+      & img {
+        display: flex;
+        min-height: 50vw;
+        width: 50%;
+        object-fit: cover;
+      }
+    }
+    .kong {
+      display: flex;
+      width: 100%;
+      justify-content: center;
+      margin-bottom: 2vw;
+      & img {
+        display: flex;
+        width: 50%;
+        min-height: 50vw;
+        object-fit: cover;
+      }
+    }
+  }
+}
